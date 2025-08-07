@@ -14,7 +14,7 @@ public class Triangulo{
         System.out.print("informe a base: ");
 
         base = teclado.nextDouble();
-        area = 0.5f * altura * base;
+        area = 0.5 * altura * base;
         System.out.println("Área: " + area);
 
 
