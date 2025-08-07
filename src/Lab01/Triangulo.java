@@ -6,16 +6,17 @@ public class Triangulo{
     public static void main(String[] args){
 
         Scanner teclado = new Scanner(System.in);
-        int altura, base;
-        float area;
+        double altura, base, area;
 
         System.out.print("informe a altura: ");
-        altura = teclado.nextInt();
+        altura = teclado.nextDouble();
 
         System.out.print("informe a base: ");
 
-        base = teclado.nextInt();
+        base = teclado.nextDouble();
         area = 0.5f * altura * base;
         System.out.println("Área: " + area);
+
+
     }
 }
