@@ -42,7 +42,7 @@ public class Account {
         return name;
     }
     public void imprime() {
-    System.out.printf("Nome do usuario:%s%n Numero da conta:%d%n Saldo disponivel:%f%n Limite disponivel:%f%n ",getName(),getNum(),getBalance(),getLimit());
+    System.out.printf("----------------------------------------\n Nome do usuario:%s%n Numero da conta:%d%n Saldo disponivel:%.2f%n Limite disponivel:%.2f%n ",getName(),getNum(),getBalance(),getLimit());
 
     }
 }
